@@ -1,6 +1,6 @@
 public class AccountOperations {
     public static Account setDefaultDescription(Account a) {
-        a.Description = 'Default Description';
+        a.Description = 'Default Description 2';
         return a;
     }
      public static Account setDefaultPhone(Account a) {//Dev01
@@ -8,8 +8,7 @@ public class AccountOperations {
         return a;
     }
      public static Account setDefaultURL(Account a) {//DEV2
-        // comment
-        a.Website = 'www.copa.do';//DEV2
+        a.Website = 'copado.com';//DEV2
         return a;
     } 
 }
